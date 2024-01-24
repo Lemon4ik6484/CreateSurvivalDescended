@@ -1,74 +1,217 @@
-[23Jan2024 21:58:09.933] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[23Jan2024 21:58:09.938] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 19.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[23Jan2024 21:58:11.228] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[23Jan2024 21:58:11.268] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/I:/Projects/MCServers/Forge/CreateSurvivalDescented/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[23Jan2024 21:58:11.823] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file I:\Projects\MCServers\Forge\CreateSurvivalDescented\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.20\fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
-[23Jan2024 21:58:11.827] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file I:\Projects\MCServers\Forge\CreateSurvivalDescented\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.20\javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[23Jan2024 21:58:11.831] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file I:\Projects\MCServers\Forge\CreateSurvivalDescented\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.20\lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[23Jan2024 21:58:11.835] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file I:\Projects\MCServers\Forge\CreateSurvivalDescented\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.20\mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
-[23Jan2024 21:58:12.478] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[23Jan2024 21:58:12.480] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: cloth_config. Using Mod File: I:\Projects\MCServers\Forge\CreateSurvivalDescented\mods\cloth-config-11.1.118-forge.jar
-[23Jan2024 21:58:12.480] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 80 dependencies adding them to mods collection
-[23Jan2024 21:58:12.556] [main/ERROR] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
-	Mod ID: 'create', Requested by: 'create_dd', Expected range: '[0.5.1.f,)', Actual version: '0.5.1.e'
-	Mod ID: 'create', Requested by: 'create_interactive', Expected range: '[0.5.1.f,)', Actual version: '0.5.1.e'
-	Mod ID: 'create', Requested by: 'create_enchantment_industry', Expected range: '[0.5.1.f,)', Actual version: '0.5.1.e'
-	Mod ID: 'create', Requested by: 'createframed', Expected range: '[0.5.1.f,)', Actual version: '0.5.1.e'
-	Mod ID: 'puzzleslib', Requested by: 'diagonalblocks', Expected range: '[8.1.5,)', Actual version: '8.0.15'
-	Mod ID: 'puzzleslib', Requested by: 'diagonalfences', Expected range: '[8.1.5,)', Actual version: '8.0.15'
-	Mod ID: 'caelus', Requested by: 'irons_spellbooks', Expected range: '[3.1.0+1.20,)', Actual version: '[MISSING]'
-[23Jan2024 21:58:15.433] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23Jan2024 21:58:15.525] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
-[23Jan2024 21:58:15.738] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.client.mixins.json does not specify "minVersion" property
-[23Jan2024 21:58:15.789] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
-[23Jan2024 21:58:15.798] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[23Jan2024 21:58:15.814] [main/WARN] [mixin/]: Reference map 'createdeco-common-refmap.json' for createdeco-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:15.816] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:15.829] [main/WARN] [mixin/]: Reference map 'ritchiesprojectilelib-forge-refmap.json' for ritchiesprojectilelib-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:15.909] [main/WARN] [mixin/]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:15.932] [main/WARN] [mixin/]: Reference map 'entity_model_features_forge_1.20.1-forge-refmap.json' for entity_model_features.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:15.935] [main/WARN] [mixin/]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:16.014] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for design_decor.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:16.067] [main/WARN] [mixin/]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:16.069] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
-[23Jan2024 21:58:16.632] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/plugins/impl/audiochannel/EntityAudioChannelImpl (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl)
-[23Jan2024 21:58:16.632] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl was not found railways-common.mixins.json:compat.voicechat.EntityAudioChannelImplMixin
-[23Jan2024 21:58:16.636] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/Server (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.Server)
-[23Jan2024 21:58:16.636] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.Server was not found railways-common.mixins.json:compat.voicechat.ServerMixin
-[23Jan2024 21:58:16.638] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/ServerWorldUtils (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.ServerWorldUtils)
-[23Jan2024 21:58:16.638] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.ServerWorldUtils was not found railways-common.mixins.json:compat.voicechat.ServerWorldUtilsMixin
-[23Jan2024 21:58:16.661] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[23Jan2024 21:58:16.662] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[23Jan2024 21:58:16.662] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin
-[23Jan2024 21:58:16.664] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[23Jan2024 21:58:16.664] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[23Jan2024 21:58:16.664] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor
-[23Jan2024 21:58:16.851] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER
-[23Jan2024 21:58:16.852] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER)
-[23Jan2024 21:58:16.852] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.model.ModelBakery was not found athena-forge.mixins.json:ModelBakeryMixin
-[23Jan2024 21:58:16.951] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
-[23Jan2024 21:58:16.951] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
-[23Jan2024 21:58:16.999] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
-[23Jan2024 21:58:17.000] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
-[23Jan2024 21:58:17.000] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
-[23Jan2024 21:58:17.002] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
-[23Jan2024 21:58:17.002] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
-[23Jan2024 21:58:17.002] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
-[23Jan2024 21:58:17.361] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
-[23Jan2024 21:58:17.374] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
-[23Jan2024 21:58:17.376] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
-[23Jan2024 21:58:17.378] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
-[23Jan2024 21:58:17.381] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
-[23Jan2024 21:58:17.383] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
-[23Jan2024 21:58:17.398] [main/WARN] [mixin/]: Error loading class: earth/terrarium/botarium/forge/BotariumForge (java.lang.ClassNotFoundException: earth.terrarium.botarium.forge.BotariumForge)
-[23Jan2024 21:58:17.398] [main/WARN] [mixin/]: @Mixin target earth.terrarium.botarium.forge.BotariumForge was not found create_central_kitchen.mixins.json:common.botarium.BotariumForgeMixin
-[23Jan2024 21:58:17.410] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/copper_pot/CopperPotBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity)
-[23Jan2024 21:58:17.410] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.CopperPotBlockEntityMixin
-[23Jan2024 21:58:17.413] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
-[23Jan2024 21:58:17.413] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityMixin
-[23Jan2024 21:58:17.415] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
-[23Jan2024 21:58:17.415] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
-[23Jan2024 21:58:17.567] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+[24Jan2024 07:46:40.219] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[24Jan2024 07:46:40.231] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 19.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[24Jan2024 07:46:42.422] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[24Jan2024 07:46:42.462] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/neko2/OneDrive/Документы/GitHub/CreateSurvivalDescended/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[24Jan2024 07:46:42.950] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.20\fmlcore-1.20.1-47.2.20.jar is missing mods.toml file
+[24Jan2024 07:46:42.954] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.20\javafmllanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[24Jan2024 07:46:42.957] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.20\lowcodelanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[24Jan2024 07:46:42.960] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.20\mclanguage-1.20.1-47.2.20.jar is missing mods.toml file
+[24Jan2024 07:46:43.624] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[24Jan2024 07:46:43.626] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: cloth_config. Using Mod File: C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\mods\cloth-config-11.1.118-forge.jar
+[24Jan2024 07:46:43.626] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 81 dependencies adding them to mods collection
+[24Jan2024 07:46:47.436] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[24Jan2024 07:46:47.530] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[24Jan2024 07:46:47.761] [main/ERROR] [mixin/]: Mixin config fabric-item-group-api-v1.client.mixins.json does not specify "minVersion" property
+[24Jan2024 07:46:47.836] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[24Jan2024 07:46:47.849] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[24Jan2024 07:46:47.872] [main/WARN] [mixin/]: Reference map 'createdeco-common-refmap.json' for createdeco-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:47.874] [main/WARN] [mixin/]: Reference map 'createdeco-forge-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:47.890] [main/WARN] [mixin/]: Reference map 'ritchiesprojectilelib-forge-refmap.json' for ritchiesprojectilelib-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:47.997] [main/WARN] [mixin/]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:48.022] [main/WARN] [mixin/]: Reference map 'entity_model_features_forge_1.20.1-forge-refmap.json' for entity_model_features.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:48.027] [main/WARN] [mixin/]: Reference map 'createframed.refmap.json' for createframed.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:48.114] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for design_decor.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:48.175] [main/WARN] [mixin/]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:48.177] [main/WARN] [mixin/]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[24Jan2024 07:46:48.285] [main/INFO] [Puzzles Lib/]: Loading 150 mods:
+	- advancementplaques 1.4.10
+	- alexsmobs 1.22.7
+	- another_furniture 1.20.1-3.0.1
+	- architectury 9.1.12
+	- athena 3.0.0
+	- bellsandwhistles 0.4.3-1.20.x
+	- bettercombat 1.8.1+1.20.1
+	- betterf3 7.0.2
+	- bettertridents 8.0.1
+	- bookshelf 20.1.8
+	- caelus 3.1.0+1.20
+	- chipped 3.0.1
+	- citadel 2.4.9
+	- cloth_config 11.1.118
+	- collective 7.30
+	- combatroll 1.3.1+1.20.1
+	- comforts 6.3.4+1.20.1
+	- create 0.5.1.f
+	- create_central_kitchen 1.3.9.d
+	- create_crush_everything 1.0.2
+	- create_dd 0.2c.PREBETA
+	- create_dragon_lib 1.3.3
+	- create_easy_structures 0.0.1
+	- create_enchantment_industry 1.2.7.h
+	- create_interactive 1.0.2-beta.1
+	- create_sa 2.0.4.
+	- create_structures 0.1.1
+	- create_things_and_misc 1.0.0
+	- create_trimmed 1.0.0
+	- create_wizardry 1.20.10.1.2
+	- createaddition 1.20.1-1.1.1
+	- createarmory 0.5
+	- createbigcannons 0.5.3.b-nightly-8a45d8e
+	- createcasing 1.20.1-1.5.0-ht3
+	- createdeco 2.0.1-1.20.1-forge
+	- createframed 1.2
+	- createoreexcavation 1.4.2
+	- createtrackmap 1.4
+	- curios 5.5.0+1.20.1
+	- decorative_blocks 4.0.2
+	- design_decor 0.1.0
+	- diagonalblocks 8.0.2
+	- diagonalfences 8.1.3
+	- display_case 1.0.8
+	- do_a_barrel_roll 3.4.0+1.20.1
+	- doubledoors 5.2
+	- dummmmmmy 1.20-1.8.14
+	- durabilitytooltip 1.1.5
+	- dynmap 3.6-899
+	- easyanvils 8.0.1
+	- easymagic 8.0.1
+	- editenchanting 1.1.2
+	- elytratrims 2.0.0-beta.4
+	- enchdesc 17.0.13
+	- entity_model_features 1.2.3
+	- entity_texture_features 5.2.1
+	- fabric_api 0.91.0+1.10.8+1.20.1
+	- fabric_api_base 0.4.30+ef105b4977
+	- fabric_api_lookup_api_v1 1.6.35+67f9824077
+	- fabric_biome_api_v1 13.0.12+dd0389a577
+	- fabric_block_api_v1 1.0.10+0e6cb7f777
+	- fabric_block_view_api_v2 1.0.0+0767707077
+	- fabric_blockrenderlayer_v1 1.1.40+1d0da21e77
+	- fabric_client_tags_api_v1 1.1.1+5d6761b877
+	- fabric_command_api_v1 1.2.33+f71b366f77
+	- fabric_command_api_v2 2.2.12+561530ec77
+	- fabric_content_registries_v0 4.0.10+a670df1e77
+	- fabric_convention_tags_v1 1.5.4+fa3d1c0177
+	- fabric_data_generation_api_v1 12.3.3+369cb3a477
+	- fabric_dimensions_v1 2.1.53+8005d10d77
+	- fabric_entity_events_v1 1.5.22+b909fbe377
+	- fabric_events_interaction_v0 0.6.1+0d0bd5a777
+	- fabric_game_rule_api_v1 1.0.39+461110ab77
+	- fabric_item_api_v1 2.1.27+2272fc7f77
+	- fabric_item_group_api_v1 4.0.11+f687ac9377
+	- fabric_key_binding_api_v1 1.0.36+561530ec77
+	- fabric_lifecycle_events_v1 2.2.21+afab492177
+	- fabric_loot_api_v2 1.2.0+eb28f93e77
+	- fabric_message_api_v1 5.1.8+52cc178c77
+	- fabric_mining_level_api_v1 2.1.49+561530ec77
+	- fabric_model_loading_api_v1 1.0.2+3a78c72c77
+	- fabric_models_v0 0.4.1+7c3892a477
+	- fabric_networking_api_v1 1.3.10+503a202477
+	- fabric_object_builder_api_v1 11.1.2+2174fc8477
+	- fabric_particles_v1 1.1.1+78e1ecb877
+	- fabric_recipe_api_v1 1.0.20+514a076577
+	- fabric_registry_sync_v0 2.3.2+1c0ea72177
+	- fabric_renderer_api_v1 3.2.0+1d29b44577
+	- fabric_renderer_indigo 1.5.0+67f9824077
+	- fabric_rendering_data_attachment_v1 0.3.36+a6081afc77
+	- fabric_rendering_fluids_v1 3.0.27+4ac5e37a77
+	- fabric_rendering_v1 3.0.7+1c0ea72177
+	- fabric_resource_conditions_api_v1 2.3.7+9ad825cd77
+	- fabric_resource_loader_v0 0.11.9+142e25ab77
+	- fabric_screen_api_v1 2.0.7+45a670a577
+	- fabric_screen_handler_api_v1 1.3.29+561530ec77
+	- fabric_sound_api_v1 1.0.12+4f23bd8477
+	- fabric_transfer_api_v1 3.3.3+b00938ec77
+	- fabric_transitive_access_wideners_v1 4.3.0+1880499877
+	- fallingleaves 2.1.0
+	- farmersdelight 1.20.1-1.2.4
+	- flywheel 0.6.10-7
+	- forge 47.2.20
+	- friendsandfoes 2.0.7
+	- garnished 1.5.2-hotfix-1+1.20.1
+	- geckolib 4.4
+	- highlighter 1.1.9
+	- iceberg 1.1.18
+	- immersive_aircraft 0.6.2+1.20.1
+	- interiors 0.5.2
+	- irons_spellbooks 1.20.1-2.2.1
+	- itemborders 1.2.1
+	- jade 11.7.1
+	- jei 15.2.0.27
+	- jeresources 1.4.0.238
+	- journeymap 5.9.18
+	- kotlinforforge 4.10.0
+	- laudividnis_discs 1.0.2
+	- legendarytooltips 1.4.5
+	- minecraft 1.20.1
+	- mixinextras 0.3.2
+	- mixinsquared 0.1.1
+	- moonlight 1.20-2.9.2
+	- nochatreports 1.20.1-v2.2.2
+	- notenoughanimations 1.7.0
+	- notenoughcrashes 4.4.7+1.20.1
+	- nyfsspiders 2.1.1
+	- parcool 1.20.1-3.1.0.6-R
+	- playeranimator 1.0.2-rc1+1.20
+	- polymorph 0.49.2+1.20.1
+	- prism 1.0.5
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.13
+	- railways 1.5.3+forge-mc1.20.1
+	- resourcefullib 2.1.9
+	- rightclickharvest 3.2.3+1.20.1-forge
+	- ritchiesprojectilelib 1.0.0-369e88d+1.20.1-forge
+	- simplyswords 1.51.5-1.20.1
+	- sliceanddice 3.2.0
+	- sophisticatedbackpacks 3.19.5.988
+	- sophisticatedcore 0.5.113.524
+	- spectrelib 0.13.14+1.20.1
+	- storagedrawers 12.0.2
+	- supermartijn642configlib 1.1.8
+	- supplementaries 1.20-2.7.30
+	- treechop 0.18.7
+	- valkyrienskies 2.1.3-beta.1
+	- villagernames 7.3
+	- visualworkbench 8.0.0
+	- watching 1.9.2
+[24Jan2024 07:46:48.848] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/plugins/impl/audiochannel/EntityAudioChannelImpl (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl)
+[24Jan2024 07:46:48.848] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.plugins.impl.audiochannel.EntityAudioChannelImpl was not found railways-common.mixins.json:compat.voicechat.EntityAudioChannelImplMixin
+[24Jan2024 07:46:48.852] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/Server (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.Server)
+[24Jan2024 07:46:48.852] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.Server was not found railways-common.mixins.json:compat.voicechat.ServerMixin
+[24Jan2024 07:46:48.855] [main/WARN] [mixin/]: Error loading class: de/maxhenkel/voicechat/voice/server/ServerWorldUtils (java.lang.ClassNotFoundException: de.maxhenkel.voicechat.voice.server.ServerWorldUtils)
+[24Jan2024 07:46:48.855] [main/WARN] [mixin/]: @Mixin target de.maxhenkel.voicechat.voice.server.ServerWorldUtils was not found railways-common.mixins.json:compat.voicechat.ServerWorldUtilsMixin
+[24Jan2024 07:46:48.882] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:48.883] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[24Jan2024 07:46:48.883] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin
+[24Jan2024 07:46:48.884] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:48.885] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[24Jan2024 07:46:48.885] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor
+[24Jan2024 07:46:49.105] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:49.105] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/resources/model/ModelBakery (java.lang.RuntimeException: Attempted to load class net/minecraft/client/resources/model/ModelBakery for invalid dist DEDICATED_SERVER)
+[24Jan2024 07:46:49.105] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.resources.model.ModelBakery was not found athena-forge.mixins.json:ModelBakeryMixin
+[24Jan2024 07:46:49.226] [main/WARN] [mixin/]: Error loading class: dev/latvian/mods/kubejs/recipe/RecipesEventJS (java.lang.ClassNotFoundException: dev.latvian.mods.kubejs.recipe.RecipesEventJS)
+[24Jan2024 07:46:49.226] [main/WARN] [mixin/]: @Mixin target dev.latvian.mods.kubejs.recipe.RecipesEventJS was not found sliceanddice.mixins.json:RecipeEventJSMixin
+[24Jan2024 07:46:49.277] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:49.277] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/AbstractContainerScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/inventory/AbstractContainerScreen for invalid dist DEDICATED_SERVER)
+[24Jan2024 07:46:49.277] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.AbstractContainerScreen was not found itemborders.mixins.json:AbstractContainerScreenMixin
+[24Jan2024 07:46:49.281] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:49.281] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/Gui (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/Gui for invalid dist DEDICATED_SERVER)
+[24Jan2024 07:46:49.282] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.Gui was not found itemborders.mixins.json:GuiMixin
+[24Jan2024 07:46:49.688] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[24Jan2024 07:46:49.702] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[24Jan2024 07:46:49.706] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[24Jan2024 07:46:49.710] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[24Jan2024 07:46:49.714] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[24Jan2024 07:46:49.717] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[24Jan2024 07:46:49.733] [main/WARN] [mixin/]: Error loading class: earth/terrarium/botarium/forge/BotariumForge (java.lang.ClassNotFoundException: earth.terrarium.botarium.forge.BotariumForge)
+[24Jan2024 07:46:49.734] [main/WARN] [mixin/]: @Mixin target earth.terrarium.botarium.forge.BotariumForge was not found create_central_kitchen.mixins.json:common.botarium.BotariumForgeMixin
+[24Jan2024 07:46:49.785] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/copper_pot/CopperPotBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity)
+[24Jan2024 07:46:49.785] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.copper_pot.CopperPotBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.CopperPotBlockEntityMixin
+[24Jan2024 07:46:49.788] [main/WARN] [mixin/]: Error loading class: com/sammy/minersdelight/content/block/sticky_basket/StickyBasketBlockEntity (java.lang.ClassNotFoundException: com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity)
+[24Jan2024 07:46:49.788] [main/WARN] [mixin/]: @Mixin target com.sammy.minersdelight.content.block.sticky_basket.StickyBasketBlockEntity was not found create_central_kitchen.mixins.json:common.minersdelight.StickyBasketBlockEntityMixin
+[24Jan2024 07:46:49.792] [main/WARN] [mixin/]: Error loading class: net/orcinus/overweightfarming/blocks/CropFullBlock (java.lang.ClassNotFoundException: net.orcinus.overweightfarming.blocks.CropFullBlock)
+[24Jan2024 07:46:49.793] [main/WARN] [mixin/]: @Mixin target net.orcinus.overweightfarming.blocks.CropFullBlock was not found create_central_kitchen.mixins.json:common.overweightfarming.CropFullBlockMixin
+[24Jan2024 07:46:49.975] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
@@ -107,69 +250,545 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinExceptio
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[23Jan2024 21:58:17.603] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[23Jan2024 21:58:17.894] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
-[23Jan2024 21:58:18.670] [main/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
-[23Jan2024 21:58:18.670] [main/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md369e5d$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
-[23Jan2024 21:58:18.671] [main/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md369e5d$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
-[23Jan2024 21:58:22.392] [main/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
-[23Jan2024 21:58:23.222] [main/FATAL] [net.minecraftforge.fml.ModLoader/CORE]: Error during pre-loading phase
-net.minecraftforge.fml.ModLoadingException: Mod §ecreate_dd§r requires §6create§r §o0.5.1.f or above§r
-§7Currently, §6create§r§7 is §o0.5.1.e
-	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.2.20.jar%23292!/:?]
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
-	at java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:722) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
-	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
-	at java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276) ~[?:?]
-	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[?:?]
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
-	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
-	at net.minecraftforge.fml.ModLoader.<init>(ModLoader.java:96) ~[fmlcore-1.20.1-47.2.20.jar%23292!/:?]
-	at net.minecraftforge.fml.ModLoader.get(ModLoader.java:128) ~[fmlcore-1.20.1-47.2.20.jar%23292!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.2.20-universal.jar%23296!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?]
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[23Jan2024 21:58:23.403] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2024-01-23_21.58.23-fml.txt
-[23Jan2024 21:58:23.407] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[24Jan2024 07:46:50.014] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[24Jan2024 07:46:50.354] [main/INFO] [mixin/]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.server.dedicated.DedicatedServer
+[24Jan2024 07:46:51.286] [main/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
+[24Jan2024 07:46:51.287] [main/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md7a6a75$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[24Jan2024 07:46:51.287] [main/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md7a6a75$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[24Jan2024 07:46:55.961] [main/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[24Jan2024 07:46:57.003] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[24Jan2024 07:46:57.008] [modloading-worker-0/INFO] [Collective/]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[24Jan2024 07:46:57.027] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.3.3 has initialized, ready to support your Create add-ons!
+[24Jan2024 07:46:57.051] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.2 initializing
+[24Jan2024 07:46:57.055] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easyanvils:main
+[24Jan2024 07:46:57.064] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[24Jan2024 07:46:57.065] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\config\jeresources.toml is not correct. Correcting
+[24Jan2024 07:46:57.066] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerColumn was corrected from null to its default, 4. 
+[24Jan2024 07:46:57.067] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key itemsPerRow was corrected from null to its default, 4. 
+[24Jan2024 07:46:57.068] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key diyData was corrected from null to its default, true. 
+[24Jan2024 07:46:57.068] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key showDevData was corrected from null to its default, false. 
+[24Jan2024 07:46:57.069] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantsBlacklist was corrected from null to its default, [flimflam, soulBound]. 
+[24Jan2024 07:46:57.069] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key hiddenTabs was corrected from null to its default, []. 
+[24Jan2024 07:46:57.070] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key dimensionsBlacklist was corrected from null to its default, [-11]. 
+[24Jan2024 07:46:57.071] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disableLootManagerReloading was corrected from null to its default, false. 
+[24Jan2024 07:46:57.128] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[24Jan2024 07:46:57.129] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[24Jan2024 07:46:57.129] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[24Jan2024 07:46:57.129] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[24Jan2024 07:46:57.129] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[24Jan2024 07:46:57.129] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[24Jan2024 07:46:57.129] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[24Jan2024 07:46:57.139] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalblocks:main
+[24Jan2024 07:46:57.177] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[24Jan2024 07:46:57.191] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\config\supplementaries-common.toml is not correct. Correcting
+[24Jan2024 07:46:57.192] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.192] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.193] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.193] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block.narrator_enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.194] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block.max_text was corrected from null to its default, 32. 
+[24Jan2024 07:46:57.194] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.speaker_block.range was corrected from null to its default, 64. 
+[24Jan2024 07:46:57.194] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.195] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.195] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.base_period was corrected from null to its default, 78. 
+[24Jan2024 07:46:57.195] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.power_scaling was corrected from null to its default, 2.0. 
+[24Jan2024 07:46:57.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.base_velocity_scaling was corrected from null to its default, 5.0. 
+[24Jan2024 07:46:57.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.velocity_changed_flag was corrected from null to its default, true. 
+[24Jan2024 07:46:57.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.bellows.range was corrected from null to its default, 5. 
+[24Jan2024 07:46:57.196] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.197] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.197] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher.velocity was corrected from null to its default, 1.5. 
+[24Jan2024 07:46:57.197] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.spring_launcher.fall_height_required was corrected from null to its default, 5. 
+[24Jan2024 07:46:57.197] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.198] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.198] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head.drop_head was corrected from null to its default, true. 
+[24Jan2024 07:46:57.198] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head.ticks_to_increase_power was corrected from null to its default, 15. 
+[24Jan2024 07:46:57.199] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enderman_head.work_from_any_side was corrected from null to its default, false. 
+[24Jan2024 07:46:57.199] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.turn_table was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.200] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.turn_table.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.200] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.turn_table.rotate_entities was corrected from null to its default, true. 
+[24Jan2024 07:46:57.200] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.pulley_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.200] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.pulley_block.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.200] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.pulley_block.mineshaft_elevator was corrected from null to its default, 0.035. 
+[24Jan2024 07:46:57.201] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.dispenser_minecart was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.201] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.dispenser_minecart.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.201] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.dispenser_minecart.face_forward was corrected from null to its default, false. 
+[24Jan2024 07:46:57.202] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.faucet was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.202] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.faucet.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.202] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.faucet.spill_items was corrected from null to its default, true. 
+[24Jan2024 07:46:57.202] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.faucet.fill_entities_below was corrected from null to its default, false. 
+[24Jan2024 07:46:57.203] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.wind_vane was corrected from null to its default, true. 
+[24Jan2024 07:46:57.203] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.clock_block was corrected from null to its default, true. 
+[24Jan2024 07:46:57.204] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.redstone_illuminator was corrected from null to its default, true. 
+[24Jan2024 07:46:57.204] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.crank was corrected from null to its default, true. 
+[24Jan2024 07:46:57.204] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.cog_block was corrected from null to its default, true. 
+[24Jan2024 07:46:57.205] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.gold_door was corrected from null to its default, true. 
+[24Jan2024 07:46:57.205] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.gold_trapdoor was corrected from null to its default, true. 
+[24Jan2024 07:46:57.205] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.lock_block was corrected from null to its default, true. 
+[24Jan2024 07:46:57.206] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.crystal_display was corrected from null to its default, true. 
+[24Jan2024 07:46:57.206] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.relayer was corrected from null to its default, true. 
+[24Jan2024 07:46:57.207] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.207] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.207] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.208] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.block_side_attachment was corrected from null to its default, true. 
+[24Jan2024 07:46:57.208] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.slide_on_fall was corrected from null to its default, true. 
+[24Jan2024 07:46:57.208] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.rope_override was corrected from null to its default, supplementaries:rope. 
+[24Jan2024 07:46:57.208] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.rope.horizontal_ropes was corrected from null to its default, true. 
+[24Jan2024 07:46:57.209] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.209] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.209] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.capacity was corrected from null to its default, 12. 
+[24Jan2024 07:46:57.209] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.drink_from_jar was corrected from null to its default, false. 
+[24Jan2024 07:46:57.210] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.drink_from_jar_item was corrected from null to its default, false. 
+[24Jan2024 07:46:57.210] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_auto_detect was corrected from null to its default, false. 
+[24Jan2024 07:46:57.210] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_capture was corrected from null to its default, true. 
+[24Jan2024 07:46:57.210] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_cookies was corrected from null to its default, true. 
+[24Jan2024 07:46:57.211] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.jar.jar_liquids was corrected from null to its default, true. 
+[24Jan2024 07:46:57.211] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.212] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.212] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.allow_all_mobs was corrected from null to its default, false. 
+[24Jan2024 07:46:57.212] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.cage_allow_all_babies was corrected from null to its default, false. 
+[24Jan2024 07:46:57.212] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.cage_auto_detect was corrected from null to its default, false. 
+[24Jan2024 07:46:57.213] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.persistent_mobs was corrected from null to its default, false. 
+[24Jan2024 07:46:57.213] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.cage.health_threshold was corrected from null to its default, 100. 
+[24Jan2024 07:46:57.213] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.213] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.213] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe.prevent_breaking was corrected from null to its default, false. 
+[24Jan2024 07:46:57.214] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.safe.simple_safes was corrected from null to its default, false. 
+[24Jan2024 07:46:57.214] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.214] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.214] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.sack_penalty was corrected from null to its default, true. 
+[24Jan2024 07:46:57.214] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.sack_increment was corrected from null to its default, 2. 
+[24Jan2024 07:46:57.214] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.sack.slots was corrected from null to its default, 9. 
+[24Jan2024 07:46:57.215] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.215] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.215] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.tipped_spikes was corrected from null to its default, true. 
+[24Jan2024 07:46:57.215] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.player_loot was corrected from null to its default, false. 
+[24Jan2024 07:46:57.215] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.only_allow_harmful_effects was corrected from null to its default, true. 
+[24Jan2024 07:46:57.215] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.bamboo_spikes.populate_creative_tab was corrected from null to its default, true. 
+[24Jan2024 07:46:57.216] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.216] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.216] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn.critter_spawn_chance was corrected from null to its default, 0.009999999776482582. 
+[24Jan2024 07:46:57.216] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.urn.cave_urns was corrected from null to its default, true. 
+[24Jan2024 07:46:57.216] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.soap was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.216] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.soap.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.216] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.soap.clean_blacklist was corrected from null to its default, [minecraft:glazed_terracotta, botania:mystical_flower, mna:chimerite_crystal, botania:floating_flower, ,minecraft:mushroom, botania:mushroom, botania:tall_mystical_flower, botania:petal_block, morered:network_cable, xycraft_world:glowing_shiny_aurey_block, xycraft_world:shiny_aurey_block, xycraft_world:rgb_lamp, xycraft_world:glowing_rgb_viewer, xycraft_world:glowing_matte_rgb_block, xycraft_world:rgb_lamp_pole]. 
+[24Jan2024 07:46:57.237] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.soap.special_blocks was corrected from null to its default, SimpleCommentedConfig:{minecraft:sticky_piston=minecraft:piston, quark:dirty_glass_pane=minecraft:glass_pane, quark:dirty_glass=minecraft:glass, #alexscaves:cave_paintings=alexscaves:smooth_limestone}. 
+[24Jan2024 07:46:57.238] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.present was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.238] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.present.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.238] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.present.trapped_present was corrected from null to its default, true. 
+[24Jan2024 07:46:57.238] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.flax was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.239] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.flax.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.239] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.flax.wild_flax was corrected from null to its default, true. 
+[24Jan2024 07:46:57.239] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.fodder was corrected from null to its default, true. 
+[24Jan2024 07:46:57.239] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key functional.hourglass was corrected from null to its default, true. 
+[24Jan2024 07:46:57.242] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.243] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.243] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.243] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard.colored_blackboard was corrected from null to its default, false. 
+[24Jan2024 07:46:57.243] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackboard.interaction_mode was corrected from null to its default, BOTH. 
+[24Jan2024 07:46:57.244] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.244] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.245] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.swap_on_shift was corrected from null to its default, false. 
+[24Jan2024 07:46:57.245] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.axes_strip was corrected from null to its default, true. 
+[24Jan2024 07:46:57.246] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.timber_frame.replace_daub was corrected from null to its default, true. 
+[24Jan2024 07:46:57.246] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.246] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.247] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate.double_opening was corrected from null to its default, true. 
+[24Jan2024 07:46:57.248] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.iron_gate.door-like_gates was corrected from null to its default, false. 
+[24Jan2024 07:46:57.248] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.item_shelf was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.249] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.item_shelf.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.249] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.item_shelf.climbable_shelves was corrected from null to its default, false. 
+[24Jan2024 07:46:57.249] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sugar_cube was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sugar_cube.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sugar_cube.horse_speed_duration was corrected from null to its default, 10. 
+[24Jan2024 07:46:57.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.planter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.250] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.planter.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.planter.broken_by_sapling was corrected from null to its default, true. 
+[24Jan2024 07:46:57.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.planter.rich_soil_planter was corrected from null to its default, true. 
+[24Jan2024 07:46:57.251] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.notice_board was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.252] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.notice_board.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.252] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.notice_board.allow_any_item was corrected from null to its default, false. 
+[24Jan2024 07:46:57.252] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.notice_board.gui was corrected from null to its default, true. 
+[24Jan2024 07:46:57.253] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pedestal was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.253] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pedestal.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.253] [modloading-worker-0/INFO] [Create: Interiors/]: Registering blocks!
+[24Jan2024 07:46:57.254] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pedestal.crystal_enchanting was corrected from null to its default, 3. 
+[24Jan2024 07:46:57.254] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.254] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.254] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.ash_from_fire was corrected from null to its default, true. 
+[24Jan2024 07:46:57.254] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.ash_from_burning_mobs was corrected from null to its default, true. 
+[24Jan2024 07:46:57.255] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.rain_wash_ash was corrected from null to its default, true. 
+[24Jan2024 07:46:57.255] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash.basalt_ash was corrected from null to its default, true. 
+[24Jan2024 07:46:57.255] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.256] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.256] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag.stick_pole was corrected from null to its default, true. 
+[24Jan2024 07:46:57.256] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flag.pole_length was corrected from null to its default, 16. 
+[24Jan2024 07:46:57.257] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.goblet was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.257] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.goblet.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.257] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.goblet.allow_drinking was corrected from null to its default, true. 
+[24Jan2024 07:46:57.257] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.globe was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.258] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.globe.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.258] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.globe.sepia_globe was corrected from null to its default, true. 
+[24Jan2024 07:46:57.258] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.258] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.258] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.way_sign was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.259] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.way_sign.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.259] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sign_post.way_sign.show_distance_text was corrected from null to its default, true. 
+[24Jan2024 07:46:57.259] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.daub was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.daub.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.daub.wattle_and_daub was corrected from null to its default, true. 
+[24Jan2024 07:46:57.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash_bricks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.260] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.ash_bricks.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.261] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.hat_stand was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.261] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.hat_stand.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.261] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.hat_stand.unrestricted was corrected from null to its default, false. 
+[24Jan2024 07:46:57.261] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.lapis_bricks was corrected from null to its default, true. 
+[24Jan2024 07:46:57.261] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.deepslate_lamp was corrected from null to its default, true. 
+[24Jan2024 07:46:57.262] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.end_stone_lamp was corrected from null to its default, true. 
+[24Jan2024 07:46:57.262] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackstone_lamp was corrected from null to its default, true. 
+[24Jan2024 07:46:57.262] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.stone_lamp was corrected from null to its default, true. 
+[24Jan2024 07:46:57.262] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.stone_tile was corrected from null to its default, true. 
+[24Jan2024 07:46:57.262] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.blackstone_tile was corrected from null to its default, true. 
+[24Jan2024 07:46:57.263] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sconce was corrected from null to its default, true. 
+[24Jan2024 07:46:57.263] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sconce_lever was corrected from null to its default, true. 
+[24Jan2024 07:46:57.263] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.sconce_green was corrected from null to its default, false. 
+[24Jan2024 07:46:57.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.pancake was corrected from null to its default, true. 
+[24Jan2024 07:46:57.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.netherite_door was corrected from null to its default, true. 
+[24Jan2024 07:46:57.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.netherite_trapdoor was corrected from null to its default, true. 
+[24Jan2024 07:46:57.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.checker_block was corrected from null to its default, true. 
+[24Jan2024 07:46:57.264] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.raked_gravel was corrected from null to its default, true. 
+[24Jan2024 07:46:57.265] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.feather_block was corrected from null to its default, true. 
+[24Jan2024 07:46:57.265] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.statue was corrected from null to its default, true. 
+[24Jan2024 07:46:57.265] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flower_box was corrected from null to its default, true. 
+[24Jan2024 07:46:57.265] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.doormat was corrected from null to its default, true. 
+[24Jan2024 07:46:57.265] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.flint_block was corrected from null to its default, true. 
+[24Jan2024 07:46:57.266] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key building.candle_holder was corrected from null to its default, true. 
+[24Jan2024 07:46:57.268] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.269] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.269] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.use_without_slow was corrected from null to its default, true. 
+[24Jan2024 07:46:57.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.slots was corrected from null to its default, 6. 
+[24Jan2024 07:46:57.270] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.quiver_skeleton_spawn_chance was corrected from null to its default, 0.03. 
+[24Jan2024 07:46:57.271] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.only_works_in_curio was corrected from null to its default, false. 
+[24Jan2024 07:46:57.271] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.quiver.quiver_pickup was corrected from null to its default, true. 
+[24Jan2024 07:46:57.271] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slice_map was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.271] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slice_map.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.272] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slice_map.range_multiplier was corrected from null to its default, 0.25. 
+[24Jan2024 07:46:57.272] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.272] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.273] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.stasis_cost was corrected from null to its default, 5. 
+[24Jan2024 07:46:57.273] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block.lifetime was corrected from null to its default, 1200. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block.break_when_touched was corrected from null to its default, true. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bubble_blower.bubble_block.feather_falling_prevents_breaking was corrected from null to its default, true. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.wrench was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.wrench.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.wrench.bypass_when_on was corrected from null to its default, MAIN_HAND. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.274] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.276] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow.capacity was corrected from null to its default, 32. 
+[24Jan2024 07:46:57.277] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.rope_arrow.exclusive_to_crossbows was corrected from null to its default, false. 
+[24Jan2024 07:46:57.277] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.277] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.277] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute.unbound_radius was corrected from null to its default, 64. 
+[24Jan2024 07:46:57.278] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.flute.bound_distance was corrected from null to its default, 64. 
+[24Jan2024 07:46:57.279] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.279] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.279] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:57.280] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.explosion_radius was corrected from null to its default, 2.0. 
+[24Jan2024 07:46:57.280] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:57.280] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.break_blocks was corrected from null to its default, WEAK. 
+[24Jan2024 07:46:57.280] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_model_features, class traben.entity_model_features.forge.EMFForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3429) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3634) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2810) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.20.jar%23303!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
+[24Jan2024 07:46:57.281] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.bomb_fuse was corrected from null to its default, 0. 
+[24Jan2024 07:46:57.281] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.blue_bomb was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.281] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: entity_texture_features, class traben.entity_texture_features.forge.ETFClientForge
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3429) ~[?:?]
+	at java.lang.Class.getConstructor0(Class.java:3634) ~[?:?]
+	at java.lang.Class.getDeclaredConstructor(Class.java:2810) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.20.1-47.2.20.jar%23303!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
+[24Jan2024 07:46:57.282] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.blue_bomb.explosion_radius was corrected from null to its default, 5.15. 
+[24Jan2024 07:46:57.283] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.bomb.blue_bomb.break_blocks was corrected from null to its default, WEAK. 
+[24Jan2024 07:46:57.284] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.284] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.285] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.range_multiplier was corrected from null to its default, 1.0. 
+[24Jan2024 07:46:57.285] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.charge_time was corrected from null to its default, 20. 
+[24Jan2024 07:46:57.285] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.stasis_deceleration was corrected from null to its default, 0.9625. 
+[24Jan2024 07:46:57.285] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.unrestricted_enderman_intercept was corrected from null to its default, true. 
+[24Jan2024 07:46:57.286] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.allow_splash_potions was corrected from null to its default, false. 
+[24Jan2024 07:46:57.286] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.allow_bombs was corrected from null to its default, false. 
+[24Jan2024 07:46:57.286] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.allow_fire_charges was corrected from null to its default, false. 
+[24Jan2024 07:46:57.287] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.allow_snowballs was corrected from null to its default, false. 
+[24Jan2024 07:46:57.287] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.slingshot.allow_enderpearls was corrected from null to its default, false. 
+[24Jan2024 07:46:57.287] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.antique_ink was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.287] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.antique_ink.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.288] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.candy was corrected from null to its default, true. 
+[24Jan2024 07:46:57.288] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.stasis was corrected from null to its default, true. 
+[24Jan2024 07:46:57.288] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tools.altimeter was corrected from null to its default, true. 
+[24Jan2024 07:46:57.292] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.292] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.creative_tab was corrected from null to its default, false. 
+[24Jan2024 07:46:57.293] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.dispensers was corrected from null to its default, true. 
+[24Jan2024 07:46:57.293] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.jar_tab was corrected from null to its default, false. 
+[24Jan2024 07:46:57.293] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.debug_save_dynamic_pack was corrected from null to its default, false. 
+[24Jan2024 07:46:57.293] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.server_protection was corrected from null to its default, false. 
+[24Jan2024 07:46:57.293] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.red_merchant_spawn_multiplier was corrected from null to its default, 1.0. 
+[24Jan2024 07:46:57.299] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.300] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.shulker_helmet was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.300] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.shulker_helmet.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.300] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.golden_apple_disenchant was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.300] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.golden_apple_disenchant.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.301] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dye_blocks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.301] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dye_blocks.enabled was corrected from null to its default, false. 
+[24Jan2024 07:46:57.301] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.traders_open_doors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.301] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.traders_open_doors.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.302] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dispenser_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.302] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dispenser_tweaks.axe_strip was corrected from null to its default, true. 
+[24Jan2024 07:46:57.302] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.dispenser_tweaks.shoot_ender_pearls was corrected from null to its default, true. 
+[24Jan2024 07:46:57.302] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.303] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks.double_cake was corrected from null to its default, true. 
+[24Jan2024 07:46:57.303] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.cake_tweaks.directional_cake was corrected from null to its default, true. 
+[24Jan2024 07:46:57.303] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.303] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks.skull_piles was corrected from null to its default, true. 
+[24Jan2024 07:46:57.303] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks.skull_candles was corrected from null to its default, true. 
+[24Jan2024 07:46:57.304] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.mob_head_tweaks.multiple_candles was corrected from null to its default, true. 
+[24Jan2024 07:46:57.304] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.hanging_flower_pots was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.305] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.hanging_flower_pots.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.305] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.throwable_bricks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.305] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.throwable_bricks.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.305] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.306] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.306] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.high_priority was corrected from null to its default, true. 
+[24Jan2024 07:46:57.307] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.mod_blacklist was corrected from null to its default, [extlights, betterendforge, tconstruct, enigmaticlegacy]. 
+[24Jan2024 07:46:57.307] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.lantern_tweaks.falling_lanterns was corrected from null to its default, ON. 
+[24Jan2024 07:46:57.307] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.307] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks.chain_ringing was corrected from null to its default, true. 
+[24Jan2024 07:46:57.308] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bells_tweaks.chain_length was corrected from null to its default, 16. 
+[24Jan2024 07:46:57.308] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.308] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks.sticks was corrected from null to its default, true. 
+[24Jan2024 07:46:57.308] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_sticks.blaze_rods was corrected from null to its default, true. 
+[24Jan2024 07:46:57.309] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.309] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.309] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.speed was corrected from null to its default, 2. 
+[24Jan2024 07:46:57.309] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_gunpowder.spread_age was corrected from null to its default, 2. 
+[24Jan2024 07:46:57.310] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.raked_gravel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.310] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.raked_gravel.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.310] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.310] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp.enabled was corrected from null to its default, false. 
+[24Jan2024 07:46:57.311] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp.cost was corrected from null to its default, 2. 
+[24Jan2024 07:46:57.311] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bottle_xp.target_block was corrected from null to its default, . 
+[24Jan2024 07:46:57.311] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.311] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.random_adventurer_maps was corrected from null to its default, true. 
+[24Jan2024 07:46:57.311] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.random_adventurer_maps_select_random_structure was corrected from null to its default, true. 
+[24Jan2024 07:46:57.312] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.block_map_markers was corrected from null to its default, true. 
+[24Jan2024 07:46:57.312] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.death_marker was corrected from null to its default, WITH_COMPASS. 
+[24Jan2024 07:46:57.312] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.quill_adventurer_maps was corrected from null to its default, true. 
+[24Jan2024 07:46:57.313] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.quill_vanilla_maps was corrected from null to its default, true. 
+[24Jan2024 07:46:57.313] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.min_search_radius was corrected from null to its default, 75. 
+[24Jan2024 07:46:57.313] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.map_tweaks.tinted_blocks_on_maps was corrected from null to its default, true. 
+[24Jan2024 07:46:57.313] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.ceiling_banners was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.313] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.ceiling_banners.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.313] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.314] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.written_books was corrected from null to its default, true. 
+[24Jan2024 07:46:57.314] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.314] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.book_power was corrected from null to its default, 1.0. 
+[24Jan2024 07:46:57.314] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.enchanted_book_power was corrected from null to its default, 1.334. 
+[24Jan2024 07:46:57.314] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.placeable_books.mixed_books was corrected from null to its default, false. 
+[24Jan2024 07:46:57.315] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.315] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.zombie_horse_conversion was corrected from null to its default, true. 
+[24Jan2024 07:46:57.315] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.rotten_flesh was corrected from null to its default, 64. 
+[24Jan2024 07:46:57.315] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.rideable_underwater was corrected from null to its default, true. 
+[24Jan2024 07:46:57.316] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.zombie_horse.zombie_horse_inverse_conversion was corrected from null to its default, true. 
+[24Jan2024 07:46:57.316] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.noteblocks_scare was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.316] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.noteblocks_scare.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.316] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bad_luck_tweaks was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.317] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bad_luck_tweaks.cat_unluck was corrected from null to its default, true. 
+[24Jan2024 07:46:57.317] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.bad_luck_tweaks.lightning_unluck was corrected from null to its default, true. 
+[24Jan2024 07:46:57.317] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.item_lore was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:57.317] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tweaks.item_lore.enabled was corrected from null to its default, true. 
+[24Jan2024 07:46:57.373] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for this in create_interactive-common.mixins.json:AbstractContraptionEntityAccessor, previously written by org.valkyrienskies.create_interactive.mixin.MixinAbstractContraptionEntity. Skipping method.
+[24Jan2024 07:46:57.436] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.30.
+[24Jan2024 07:46:57.561] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for easymagic:main
+[24Jan2024 07:46:57.591] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for visualworkbench:main
+[24Jan2024 07:46:57.604] [modloading-worker-0/WARN] [fallingleaves/]: Falling Leaves is a client only mod and should be removed from the mods list
+[24Jan2024 07:46:57.692] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[24Jan2024 07:46:57.766] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.20, for MC 1.20.1 with MCP 20230612.114412
+[24Jan2024 07:46:57.766] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.20 Initialized
+[24Jan2024 07:46:57.831] [modloading-worker-0/INFO] [Dynmap/]: [Dynmap] Mod Support API available
+[24Jan2024 07:46:57.977] [modloading-worker-0/INFO] [NoChatReports/]: KONNICHIWA ZA WARUDO!
+[24Jan2024 07:46:57.978] [modloading-worker-0/INFO] [NoChatReports/]: Default JVM text encoding is: UTF-8
+[24Jan2024 07:46:57.984] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
+[24Jan2024 07:46:57.985] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
+[24Jan2024 07:46:58.064] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\config\create_central_kitchen-common.toml is not correct. Correcting
+[24Jan2024 07:46:58.065] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key automation was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.065] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key automation.enableCuttingBoardDeploying was corrected from null to its default, true. 
+[24Jan2024 07:46:58.065] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key automation.boostingCookerList was corrected from null to its default, [farmersdelight:cooking_pot, farmersdelight:skillet, miners_delight:copper_pot]. 
+[24Jan2024 07:46:58.066] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key integration was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.067] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key integration.enablePieOverhaul was corrected from null to its default, true. 
+[24Jan2024 07:46:58.067] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key integration.pieOverhaulBlackList was corrected from null to its default, []. 
+[24Jan2024 07:46:58.067] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key integration.enableHarvesterSupportForOverweightFarming was corrected from null to its default, true. 
+[24Jan2024 07:46:58.108] [modloading-worker-0/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on valkyrienskies-common.mixins.json:mod_compat.create.block.MixinRedstoneContactBlock::handler$bkn000$injectTick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[24Jan2024 07:46:58.404] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[24Jan2024 07:46:58.406] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Failed to register automatic subscribers. ModID: legendarytooltips, class com.anthonyhilyard.legendarytooltips.Loader
+java.lang.ExceptionInInitializerError: null
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:495) ~[?:?]
+	at java.lang.Class.forName(Class.java:474) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber.lambda$inject$6(AutomaticEventSubscriber.java:61) ~[javafmllanguage-1.20.1-47.2.20.jar%23303!/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:48) ~[javafmllanguage-1.20.1-47.2.20.jar%23303!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:85) ~[javafmllanguage-1.20.1-47.2.20.jar%23303!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1311) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177) ~[?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at com.anthonyhilyard.legendarytooltips.config.LegendaryTooltipsConfig.<init>(LegendaryTooltipsConfig.java:148) ~[LegendaryTooltips-1.20.1-forge-1.4.5.jar%23274!/:1.4.5]
+	at net.minecraftforge.common.ForgeConfigSpec$Builder.configure(ForgeConfigSpec.java:609) ~[forge-1.20.1-47.2.20-universal.jar%23306!/:?]
+	at com.anthonyhilyard.legendarytooltips.config.LegendaryTooltipsConfig.<clinit>(LegendaryTooltipsConfig.java:111) ~[LegendaryTooltips-1.20.1-forge-1.4.5.jar%23274!/:1.4.5]
+	... 15 more
+[24Jan2024 07:46:58.481] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for diagonalfences:main
+[24Jan2024 07:46:58.498] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for bettertridents:main
+[24Jan2024 07:46:58.524] [modloading-worker-0/INFO] [railways/]: Registered bogey styles from railways
+[24Jan2024 07:46:58.554] [modloading-worker-0/INFO] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Starting...
+[24Jan2024 07:46:58.554] [modloading-worker-0/WARN] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Not supported on dedicated server!
+[24Jan2024 07:46:58.560] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[24Jan2024 07:46:58.566] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[24Jan2024 07:46:58.621] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\neko2\OneDrive\Документы\GitHub\CreateSurvivalDescended\config\createaddition-common.toml is not correct. Correcting
+[24Jan2024 07:46:58.621] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.622] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.fe_at_max_rpm was corrected from null to its default, 480. 
+[24Jan2024 07:46:58.622] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.max_stress was corrected from null to its default, 16384. 
+[24Jan2024 07:46:58.623] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.623] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_rpm_range was corrected from null to its default, 256. 
+[24Jan2024 07:46:58.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_min_consumption was corrected from null to its default, 8. 
+[24Jan2024 07:46:58.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_max_input was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key electric_motor.motor_capacity was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.626] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.626] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_max_output was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.626] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_capacity was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.626] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key alternator.generator_efficiency was corrected from null to its default, 0.75. 
+[24Jan2024 07:46:58.628] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.628] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill.rolling_mill_processing_duration was corrected from null to its default, 100. 
+[24Jan2024 07:46:58.628] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rolling_mill.rolling_mill_stress was corrected from null to its default, 16. 
+[24Jan2024 07:46:58.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_max_input was corrected from null to its default, 1000. 
+[24Jan2024 07:46:58.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_max_output was corrected from null to its default, 1000. 
+[24Jan2024 07:46:58.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.small_connector_wire_length was corrected from null to its default, 16. 
+[24Jan2024 07:46:58.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_max_input was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_max_output was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.632] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.large_connector_wire_length was corrected from null to its default, 32. 
+[24Jan2024 07:46:58.632] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.connector_ignore_face_check was corrected from null to its default, true. 
+[24Jan2024 07:46:58.632] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wires.connector_allow_passive_io was corrected from null to its default, true. 
+[24Jan2024 07:46:58.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_input was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_output was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_capacity was corrected from null to its default, 2000000. 
+[24Jan2024 07:46:58.635] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_height was corrected from null to its default, 5. 
+[24Jan2024 07:46:58.635] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key accumulator.accumulator_max_width was corrected from null to its default, 3. 
+[24Jan2024 07:46:58.636] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.636] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface.pei_max_input was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.636] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key portable_energy_interface.pei_max_output was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.638] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.638] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_max_input was corrected from null to its default, 10000. 
+[24Jan2024 07:46:58.638] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_charge_rate was corrected from null to its default, 5000. 
+[24Jan2024 07:46:58.638] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_recipe_charge_rate was corrected from null to its default, 2000. 
+[24Jan2024 07:46:58.639] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_capacity was corrected from null to its default, 40000. 
+[24Jan2024 07:46:58.639] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_energy_required was corrected from null to its default, 1000. 
+[24Jan2024 07:46:58.639] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_range was corrected from null to its default, 3. 
+[24Jan2024 07:46:58.639] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_mob was corrected from null to its default, 3. 
+[24Jan2024 07:46:58.639] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_effect_time_mob was corrected from null to its default, 20. 
+[24Jan2024 07:46:58.639] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_hurt_player was corrected from null to its default, 2. 
+[24Jan2024 07:46:58.640] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_effect_time_player was corrected from null to its default, 20. 
+[24Jan2024 07:46:58.640] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key tesla_coil.tesla_coil_fire_cooldown was corrected from null to its default, 20. 
+[24Jan2024 07:46:58.641] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc was corrected from null to its default, SimpleCommentedConfig:{}. 
+[24Jan2024 07:46:58.642] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.diamond_grit_sandpaper_uses was corrected from null to its default, 1024. 
+[24Jan2024 07:46:58.642] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key misc.barbed_wire_damage was corrected from null to its default, 2.0. 
+[24Jan2024 07:46:58.785] [modloading-worker-0/WARN] [createtrackmap/]: Create Track Map config does not exist, writing defaults to create-track-map.json
+[24Jan2024 07:46:58.793] [modloading-worker-0/INFO] [railways/]: Registering data fixers
+[24Jan2024 07:46:58.799] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
+[24Jan2024 07:46:59.004] [modloading-worker-0/INFO] [railways/]: Registering tracks for Hex Casting
+[24Jan2024 07:46:59.006] [modloading-worker-0/INFO] [railways/]: Registering tracks for Oh The Biomes You'll Go
+[24Jan2024 07:46:59.006] [modloading-worker-0/INFO] [railways/]: Registering tracks for Blue Skies
+[24Jan2024 07:46:59.007] [modloading-worker-0/INFO] [railways/]: Registering tracks for Twilight Forest
+[24Jan2024 07:46:59.008] [modloading-worker-0/INFO] [railways/]: Registering tracks for Biomes O' Plenty
+[24Jan2024 07:46:59.211] [modloading-worker-0/INFO] [mixin/]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.network.protocol.status.ServerStatus
+[24Jan2024 07:46:59.502] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 3 errors found
+[24Jan2024 07:46:59.673] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 6da3a98b-5d05-4460-ba6d-2f1c547f75fc
+[24Jan2024 07:46:59.680] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to .\crash-reports\crash-2024-01-24_07.46.59-fml.txt
+[24Jan2024 07:46:59.687] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 61164369-cc2c-44fe-a314-cc670c862bd6
+[24Jan2024 07:46:59.693] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Mod §ecreate_dd§r requires §6create§r §o0.5.1.f or above§r
-§7Currently, §6create§r§7 is §o0.5.1.e,
-	Mod §ecreate_interactive§r requires §6create§r §o0.5.1.f or above§r
-§7Currently, §6create§r§7 is §o0.5.1.e,
-	Mod §ecreate_enchantment_industry§r requires §6create§r §o0.5.1.f or above§r
-§7Currently, §6create§r§7 is §o0.5.1.e,
-	Mod §ecreateframed§r requires §6create§r §o0.5.1.f or above§r
-§7Currently, §6create§r§7 is §o0.5.1.e,
-	Mod §ediagonalblocks§r requires §6puzzleslib§r §o8.1.5 or above§r
-§7Currently, §6puzzleslib§r§7 is §o8.0.15,
-	Mod §ediagonalfences§r requires §6puzzleslib§r §o8.1.5 or above§r
-§7Currently, §6puzzleslib§r§7 is §o8.0.15,
-	Mod §eirons_spellbooks§r requires §6caelus§r §o3.1.0+1.20 or above§r
-§7Currently, §6caelus§r§7 is §o§nnot installed
+	Entity Model Features (entity_model_features) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Entity Texture Features (entity_texture_features) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER,
+	Legendary Tooltips (legendarytooltips) has failed to load correctly
+§7java.lang.ExceptionInInitializerError: null
 ]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.2.20.jar%23292!/:?]
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.2.20-universal.jar%23296!/:?]
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23291!/:?]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:246) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:210) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:210) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:183) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:183) ~[fmlcore-1.20.1-47.2.20.jar%23302!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.2.20-universal.jar%23306!/:?]
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23301!/:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?]
